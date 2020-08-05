@@ -22,3 +22,35 @@ h1 {
     box-shadow: 4px 4px 5px rgba(82, 82, 82, .4);
     border-radius: 5px;
 }
+.list {
+    padding: 40px;
+    border-radius: 5px 5px 0 0;
+    background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+}
+.to_do_input {
+    width: 80%;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(79, 82, 92);
+    background-color: rgb(245, 245, 245);
+}
+.alert_info {
+    margin-top: 20px;
+    color: rgb(2, 84, 161);
+}
+.add-btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(2, 84, 161);
+    background-color: rgb(2, 161, 108);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+.add-btn:hover {
+    color: #fff;
+    background-color: rgb(2, 84, 161);
+}
