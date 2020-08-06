@@ -46,8 +46,6 @@ body {
     color: #fff;
     background-color: rgb(2, 84, 161);
 }
-
-
 .list {
     padding: 40px;
     border-radius: 5px 5px 0 0;
@@ -98,4 +96,62 @@ h1 {
 .delete {
     color: tomato;
 }
+.popup {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    color: var(--light);
+    background-color: var(--light-dark);
+    border-radius: 5px;
+}
 
+.popup h3 {
+    padding: 20px;
+}
+
+.popup-info {
+    margin-bottom: 20px;
+    color: var(--light);
+}
+
+.popup-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 10px;
+}
+
+.popup-input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--light-dark);
+    background-color: var(--light);
+}
+
+.popup-btn {
+    display: inline-block;
+    width: 30%;
+    padding: 10px 22px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--deep-dark);
+    background-color: var(--light);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+
+.popup-btn:hover {
+    color: #fff;
+    background-color: var(--light-blue);
+}
